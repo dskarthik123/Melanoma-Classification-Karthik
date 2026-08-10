@@ -1,0 +1,15 @@
+{
+  "name": "E0_baseline",
+  "csv": "/user/HS402/kd01071/Downloads/Melanoma-Classification-Group26/train.csv",
+  "img_dir": "/user/HS402/kd01071/Downloads/Melanoma-Classification-Group26/train",
+  "split_csv": "/user/HS402/kd01071/Melanoma-Classification-Karthik/splits/patient.csv",
+  "fold_col": "patient_fold",
+  "balanced": false,
+  "use_metadata": false,
+  "drop": [],
+  "epochs": 8,
+  "lr": 2e-05,
+  "batch_size": 32,
+  "workers": 8,
+  "seed": 42
+}

@@ -1,0 +1,3 @@
+config,seed42,seed0,seed1,mean,sd
+E1 image-only,0.9034,0.8895,0.899,0.8973,0.0071
+E2 multimodal,0.905,0.9011,0.8958,0.9006,0.0046

@@ -1,0 +1,34 @@
+{
+  "audit": {
+    "n_images": 33126,
+    "n_patients": 2056,
+    "duplicate_image_names": 0,
+    "missing_image_files": 0,
+    "n_positive": 584,
+    "positive_rate": 0.01762965646320111,
+    "imbalance_ratio": 55.72260273972603,
+    "images_per_patient": {
+      "mean": 16.111867704280154,
+      "median": 12.0,
+      "max": 115
+    },
+    "patients_with_melanoma": 428,
+    "metadata_missing": {
+      "age_approx": 68,
+      "sex": 65,
+      "anatom_site_general_challenge": 527
+    }
+  },
+  "patient_split": {
+    "shared_patients": 0,
+    "val_images": 6627,
+    "val_positives": 117,
+    "val_positive_rate": 0.01765504753282028
+  },
+  "image_split": {
+    "shared_patients": 1704,
+    "val_images": 6626,
+    "val_positives": 117,
+    "val_positive_rate": 0.017657712043465137
+  }
+}

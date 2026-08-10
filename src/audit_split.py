@@ -87,4 +87,5 @@ if __name__ == "__main__":
     p.add_argument("--csv", type=Path, required=True)
     p.add_argument("--img-dir", type=Path, required=True)
     p.add_argument("--out", type=Path, default=Path("."))
-    main(*vars(p.parse_args()).values())
+    a = p.parse_args()
+    main(a.csv, a.img_dir, a.out)

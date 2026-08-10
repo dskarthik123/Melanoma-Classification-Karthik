@@ -1,6 +1,5 @@
 data/
 logs/*.log
-results/*.png
 checkpoints/
 __pycache__/
 *.pth

@@ -1,0 +1,38 @@
+--- sex ---
+        all_melanoma  missed
+sex                         
+male           0.607   0.543
+female         0.393   0.457
+
+--- anatom_site_general_challenge ---
+                               all_melanoma  missed
+anatom_site_general_challenge                      
+head/neck                             0.138   0.057
+lower extremity                       0.164   0.171
+oral/genital                          0.026     NaN
+palms/soles                           0.009   0.029
+torso                                 0.466   0.514
+upper extremity                       0.198   0.229
+
+=== subgroup: sex ===
+   sex    n  pos  recall   fpr
+  male 3295   71   0.732 0.102
+female 3332   46   0.652 0.098
+
+=== subgroup: anatom_site_general_challenge ===
+anatom_site_general_challenge    n  pos  recall   fpr
+                        torso 3301   54   0.667 0.102
+              upper extremity  947   23   0.652 0.084
+              lower extremity 1745   19   0.684 0.079
+                    head/neck  436   16   0.875 0.198
+                 oral/genital   24    3   1.000 0.143
+                  palms/soles   72    1   0.000 0.127
+                          NaN  102    1   1.000 0.109
+
+=== subgroup: age_band ===
+     age_band    n  pos  recall   fpr
+ (55.0, 70.0] 1900   38   0.737 0.111
+ (40.0, 55.0] 2472   33   0.576 0.074
+  (0.0, 40.0] 1922   25   0.680 0.100
+(70.0, 100.0]  331   21   0.857 0.235
+          NaN    2    0     NaN 0.500
